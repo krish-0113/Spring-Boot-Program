@@ -1,0 +1,62 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.example</groupId>
+  <artifactId>AOP-Make-Payment</artifactId>
+  <packaging>war</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>AOP-Make-Payment Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- Spring Core Dependency -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-core</artifactId>
+      <version>5.3.25</version>  <!-- Use the appropriate version -->
+    </dependency>
+
+    <!-- Spring Context Dependency -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>5.3.25</version>  <!-- Use the appropriate version -->
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-aop</artifactId>
+      <version>5.3.24</version> <!-- Use the appropriate version based on your Spring version -->
+    </dependency>
+
+    <!-- AspectJ Dependency -->
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjrt</artifactId>
+      <version>1.9.7</version> <!-- Use the appropriate version of AspectJ -->
+    </dependency>
+
+    <!-- AspectJ Weaver Dependency -->
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjweaver</artifactId>
+      <version>1.9.7</version> <!-- Use the appropriate version of AspectJ Weaver -->
+    </dependency>
+
+    <!-- Spring Context for AOP support -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>5.3.24</version> <!-- Use the appropriate version -->
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>AOP-Make-Payment</finalName>
+  </build>
+</project>
